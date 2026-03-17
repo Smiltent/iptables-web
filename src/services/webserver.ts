@@ -6,9 +6,9 @@ import express from "express"
 import path from "path"
 import cors from "cors"
 
-import firewallRulesRoutes from '../routes/firewall-rules.route.js'
-import publicRoutes from '../routes/public.route.js'
-import pagesRoutes from '../routes/pages.route.js'
+import firewallRulesRoutes from '../routes/firewall.routes.js'
+import publicRoutes from '../routes/public.routes.js'
+import pagesRoutes from '../routes/pages.routes.js'
 
 export default class WebserverService {
     private port: string

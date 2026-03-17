@@ -1,6 +1,5 @@
 
-import path from "path"
-import requireLogin from "../middlewares/auth.middleware"
+import requireLogin from "../middlewares/auth.middlewares"
 import { Router } from "express"
 
 const router = Router()

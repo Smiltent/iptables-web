@@ -1,8 +1,50 @@
 # todo
-* [ ] when using bulk ips - instead of it... freezing for a while, then redirecting to a 200 json, use the modals
-* [ ] scratch the top todo, just make it so it never sends you to the json, but just returns the message in a modal
-* [ ] sort rich rules by ports, by ips, if they are dropped, if they rejected
-* [ ] make the actions delete the correct rich rule
+* [x] rewrite todo
+* [ ] rewrite from firewalld to iptables
+* [ ] always search based on line numbers (-L -n --line-numbers)
+* [ ] insert between rules using line numners
+* [ ] port ranges
 
-# bugs 
-* [ ] if there are too many rich rules, the header disappears and you cant access it anymore, make the table scrollable
+
+-- tables (-t)
+filter
+nat
+mangle
+raw
+security
+
+-- input interface (-i)
+list interfaces
+
+-- output interface (-o)
+list interfaces
+
+-- ip address (-s)
+
+-- source port (outgoing) (--sport)
+
+-- destination port (incoming) (--dport)
+
+-- protocol (-p)
+tcp
+udp
+
+
+-- chains (-A)
+PREROUTING
+INPUT
+OUTPUT
+FORWARD
+POSTROUTING
+... list all chains ...
+
+-- target (-j)
+ACCEPT
+DROP
+REJECT
+MASQUERADE
+
+-- state (--ctstate)
+NEW
+ESTABLISHED
+RELATED
