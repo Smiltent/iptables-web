@@ -11,7 +11,7 @@ Submitted to Hackclub Flavortown!
 [![iptables web ui showcase](https://img.youtube.com/vi/z38n15EXIkc/0.jpg)](https://www.youtube.com/watch?v=z38n15EXIkc)
 ### site
 The example site can be accessed at https://firewall-showcase.smilt.dev  
-To access the panel itself, just write anything and click enter.
+To access the panel itself, just write anything and click enter - that's where you would write the password for the access.
 
 ## running
 On each system, you must have iptables & bun installed. If you are just trying it out, you must change `NODE_ENV` to `showcase` in `.env`  
