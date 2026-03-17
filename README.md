@@ -8,7 +8,7 @@ Submitted to Hackclub Flavortown!
 
 ## demo
 ### video
-[![iptables web ui showcase](https://img.youtube.com/vi/z38n15EXIkc/0.jpg)](https://www.youtube.com/watch?v=z38n15EXIkc)
+[youtube video](https://www.youtube.com/watch?v=z38n15EXIkc)
 ### site
 The example site can be accessed at https://firewall-showcase.smilt.dev  
 To access the panel itself, just write anything and click enter - that's where you would write the password for the access.
