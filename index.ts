@@ -11,6 +11,7 @@ logging(true)
 
 export const webserverService = new WebserverService(process.env.PORT || "3000")
 
+process.env.NODE_ENV === "showcase" ? console.warn("Running in showcase mode! Nothing will be saved...") : null
 let _firewall = process.env.NODE_ENV === "showcase"
     ? new FakeTablesService()
     : new IptablesService()
