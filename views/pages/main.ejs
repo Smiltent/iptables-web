@@ -1,3 +1,6 @@
-<h1>Hello!</h1>
 <p>You can start managing your firewall by going to `add`</p>
 <p>Any more info can be found on the <a href="https://github.com/Smiltent/iptables-web">GitHub page's README</a></p>
+
+<% if (showcase) { %>
+    <p style="color: var(--yellow);"><br>This site is currently on <b>Showcase Mode</b>! No rules will be added or removed to the actual firewall!</p>
+<% } %>

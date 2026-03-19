@@ -6,7 +6,7 @@ import { Router } from "express"
 const router = Router()
 
 router.get('/main', requireLogin, (req, res) => {
-    res.render("pages/main")
+    res.render("pages/main", { showcase: process.env.NODE_ENV === "showcase" })
 }) 
 
 router.get('/add', requireLogin, async (req, res) => {
